@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 2;
+}
+header{
+    font-family: 'Roboto' ;
+    background-color: #F50004;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 5px;
+   
+}
+.app{
+    display: flex;
+    height: 100vh;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 10px;
+}
+.left{
+    width: 400px;
+    background-color: #F50004;
+    border-radius: 5px;
+    
+    
+}
+.put{
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+button{
+    font-family: 'Roboto';
+    font-size: 15px;
+    border: none;
+    color: whitesmoke;
+    background-color: #F50004;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+button:hover{
+    color: #F50004;
+    background-color:black;
+    transition: .5s;
+} 
+input{
+    padding: 10px;
+}
+li{
+    font-family: 'Lobster' ;
+    color: whitesmoke;
+    list-style: square;
+    font-size: 20px;
+}
+a{
+    margin-left: 4px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 11px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
